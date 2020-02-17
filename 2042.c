@@ -1,3 +1,4 @@
+// 구간합 
 #include <stdio.h>
 
 int N, M, K;
