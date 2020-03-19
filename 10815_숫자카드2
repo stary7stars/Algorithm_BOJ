@@ -1,0 +1,29 @@
+//10815번: 숫자카드2
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int num[500002];
+
+int main()
+{
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL); cout.tie(NULL);
+	
+	int N, M, a;
+	
+	cin >> N;
+	for (int n = 0; n < N; n++)
+		cin >> num[n];
+	
+	sort(num, num + N);
+	
+	cin >> M;
+	for (int m = 0; m < M; m++)
+	{
+		cin >> a;
+		cout << upper_bound(num, num + N, a) - lower_bound(num, num + N, a) << ' ';
+	}
+	
+	return 0;
+}
