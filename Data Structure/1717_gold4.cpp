@@ -1,4 +1,4 @@
-//집합의 표현
+// 1717번 : 집합의 표현
 #include <cstdio>
 
 int parent[1000100];

@@ -1,3 +1,4 @@
+// 1238ë²ˆ : íŒŒí‹°
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <cstdio>
@@ -22,7 +23,7 @@ void go(vector<P> v[], int dijk[])
     while (!pq.empty()) {
         P now = pq.top(); pq.pop();
         int cur = now.second;
-        int cost = now.first; // ÇöÀç ³ëµå°¡ °®°í ÀÖ´Â cur¿¡ µµÂøÇÏ´Âµ¥ °É¸° cost
+        int cost = now.first; // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½å°¡ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ curï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´Âµï¿½ ï¿½É¸ï¿½ cost
         if (dijk[cur] < cost) continue;
         dijk[cur] = cost;
         for (P c : v[cur]) {

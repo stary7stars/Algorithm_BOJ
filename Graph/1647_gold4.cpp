@@ -1,4 +1,4 @@
-//1647번: 도시 분할 계획
+// 1647번: 도시 분할 계획
 #include <iostream>
 #include <algorithm>
 using namespace std;
