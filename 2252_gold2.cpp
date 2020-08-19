@@ -1,4 +1,4 @@
-// 줄 세우기
+// 2252번 : 줄 세우기
 #include <iostream>
 #include <vector>
 #include <queue>

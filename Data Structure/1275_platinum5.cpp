@@ -1,4 +1,4 @@
-// Ä¿ÇÇ¼ó2
+// 1275¹ø: Ä¿ÇÇ¼ó2
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <cstdio>

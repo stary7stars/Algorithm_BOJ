@@ -1,4 +1,4 @@
-// 구간합 
+// 2042번 : 구간합 구하기 
 #include <stdio.h>
 
 int N, M, K;
