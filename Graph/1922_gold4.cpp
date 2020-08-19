@@ -1,4 +1,4 @@
-// 네트워크 연결
+// 1922번 : 네트워크 연결
 #include <iostream>
 #include <algorithm>
 using namespace std;

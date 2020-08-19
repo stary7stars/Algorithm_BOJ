@@ -1,4 +1,4 @@
-//1197번: 최소 스패닝 트리
+// 1197번: 최소 스패닝 트리
 #include <iostream>
 #include <algorithm>
 using namespace std;

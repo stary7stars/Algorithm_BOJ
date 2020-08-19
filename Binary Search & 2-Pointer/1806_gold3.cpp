@@ -1,4 +1,4 @@
-// 부분합
+// 1806번 : 부분합
 #include <iostream>
 using namespace std;
 

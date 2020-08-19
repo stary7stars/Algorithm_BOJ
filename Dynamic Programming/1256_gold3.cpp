@@ -1,4 +1,4 @@
-// 사전
+// 1256번 : 사전
 #include <iostream>
 using namespace std;
 
